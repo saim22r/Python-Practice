@@ -58,7 +58,7 @@ print(add_values(4, 2))
 print(subtract_values(5, 2))
 ```
 ### 10. Declare a dictionary with 3 shopping items and write a function to return the total
-
+````
 shopping_list = {"egss": 1.20, "milk": 2.30, "bread": 1.00}
 
 def total_value(dict):
@@ -67,10 +67,9 @@ def total_value(dict):
     return f" The total value is £{total}"
 
 print(total_value(shopping_list))
-
-### 11. Prompt the user to enter an integer, declare a function that checks in the number is odd or even.
-display back to the user with the message "the number you have chosen is odd or even"
-
+````
+### 11. Prompt the user to enter an integer, declare a function that checks in the number is odd or even. Display back to the user with the message "the number you have chosen is odd or even"
+````
 num = input("PLease input an integer")
 
 def odd_check(num):
@@ -78,17 +77,18 @@ def odd_check(num):
         print("Your number is even")
     else:
         print("Your number is odd")
-
+````
 ### 12 select the correct syntax - 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - super().__init__()
+````
 super().__init__() (4)
-
+````
 ### 13. Declare a tuple with three values of my choice iterate through the tuple and display the value
-
+````
 my_tuple = ("this", 2, "tuple")
 
 for i in my_tuple:
     print(i)
-
+````
 ### 14. Create a class called student, 1 method called "student_data() returns "student_name" class called DevopsStudent which inherits the student class and prints the name
 ````
 class Student:
