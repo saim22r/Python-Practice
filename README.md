@@ -90,7 +90,7 @@ for i in my_tuple:
     print(i)
 
 ### 14. Create a class called student, 1 method called "student_data() returns "student_name" class called DevopsStudent which inherits the student class and prints the name
-``````
+````
 class Student:
     def student_data(self):
         return "Saim"
@@ -101,7 +101,7 @@ class DevopsStudent(Student):
 
 ds = DevopsStudent()
 print(ds.student_data())
-
+````
 ### 15. Declare a variable called city, declare a method that takes city as an argument, value of city is london. Method checks if the value is london and returns true or false
 ````
 def citycheck(cityname):
@@ -111,4 +111,15 @@ def citycheck(cityname):
         return False
 
 print(citycheck("London"))
+````
+### 16. import sys module, import math, print the random method
+````
+import random
+import sys
+import math
+
+def percentage(num1, num2):
+    return (num1 * 100) / num2
+
+print(percentage(random.randint(1, 100), random.randint(1, 100)))
 ````

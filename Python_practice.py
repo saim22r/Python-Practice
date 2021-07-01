@@ -53,26 +53,28 @@
 
 # 10. Declare a dictionary with 3 shopping items and write a function to return the total
 #
-# shopping_list = {"egss": 1.20, "milk": 2.30, "bread": 1.00}
+# shopping_list = {"eggs": 1.20, "milk": 2.30, "bread": 1.00}
 #
-# def total_value(dict):
-#     list = dict.values()
+# def total_value(shopping_list):
+#     list = shopping_list.values()
 #     total = sum(list)
-#     return f" The total value is £{total}"
-#
+#     return total
+# #
 # print(total_value(shopping_list))
 #
 # 11. Prompt the user to enter an integer, declare a function that checks in the number is odd or even.
 # display back to the user with the message "the number you have chosen is odd or even"
 #
 # num = input("PLease input an integer")
-#
+
 # def odd_check(num):
 #     if num % 2 == 0:
-#         print("Your number is even")
+#         return "Your number is even"
 #     else:
-#         print("Your number is odd")
+#         return "Your number is odd"
 #
+# print(odd_check(int(input("Please enter your number "))))
+
 # 12 select the correct syntax - 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - super().__init__()
 # super().__init__() (4)
 #
@@ -96,25 +98,25 @@
 #
 # ds = DevopsStudent()
 # print(ds.student_data())
-#
+# #
 # 15. Declare a variable called city, declare a method that takes city as an argument, value of city is london. Method checks if the value is london and returns true or false
 #
 #
+# city = "London"
 # def citycheck(cityname):
 #     if cityname == "London":
 #         return True
 #     else:
 #         return False
 #
-# print(citycheck("London"))
+# print(citycheck(city))
 
-# 16. import sys module, import math, print the random method
-
-import random
-import sys
-import math
-
-def percentage(num1, num2):
-    return (num1 * 100) / num2
-
-print(percentage(random.randint(1, 100), random.randint(1, 100)))
+# # 16. import sys module, import math, print the random method
+# import random
+# import sys
+# import math
+# #
+# def percentage(num1, num2):
+#     return (num1 * 100) / num2
+#
+# print(percentage(random.randint(1, 100), random.randint(1, 100)))
