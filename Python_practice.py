@@ -52,7 +52,7 @@
 # print(subtract_value(5, 2))
 
 # 10. Declare a dictionary with 3 shopping items and write a function to return the total
-
+#
 # shopping_list = {"egss": 1.20, "milk": 2.30, "bread": 1.00}
 #
 # def total_value(dict):
@@ -61,7 +61,7 @@
 #     return f" The total value is £{total}"
 #
 # print(total_value(shopping_list))
-
+#
 # 11. Prompt the user to enter an integer, declare a function that checks in the number is odd or even.
 # display back to the user with the message "the number you have chosen is odd or even"
 #
@@ -72,18 +72,18 @@
 #         print("Your number is even")
 #     else:
 #         print("Your number is odd")
-
+#
 # 12 select the correct syntax - 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - super().__init__()
 # super().__init__() (4)
-
-# Declare a tuple with three values of my choice iterate through the tuple and display the value
+#
+# 13. Declare a tuple with three values of my choice iterate through the tuple and display the value
 #
 # my_tuple = ("this", 2, "tuple")
 #
 # for i in my_tuple:
 #     print(i)
-
-# 13 Create a class called student, 1 method called "student_data() returns "student_name"
+#
+# 14. Create a class called student, 1 method called "student_data() returns "student_name"
 # class called DevopsStudent which inherits the student class and prints the name
 #
 # class Student:
@@ -96,8 +96,8 @@
 #
 # ds = DevopsStudent()
 # print(ds.student_data())
-
-# 14. Declare a variable called city, declare a method that takes city as an argument, value of city is london. Method checks if the value is london and returns true or false
+#
+# 15. Declare a variable called city, declare a method that takes city as an argument, value of city is london. Method checks if the value is london and returns true or false
 #
 #
 # def citycheck(cityname):
@@ -107,3 +107,14 @@
 #         return False
 #
 # print(citycheck("London"))
+
+# 16. import sys module, import math, print the random method
+
+import random
+import sys
+import math
+
+def percentage(num1, num2):
+    return (num1 * 100) / num2
+
+print(percentage(random.randint(1, 100), random.randint(1, 100)))
