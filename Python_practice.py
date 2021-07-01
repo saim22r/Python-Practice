@@ -85,14 +85,25 @@
 
 # 13 Create a class called student, 1 method called "student_data() returns "student_name"
 # class called DevopsStudent which inherits the student class and prints the name
+#
+# class Student:
+#     def student_data(self):
+#         return "Saim"
+#
+# class DevopsStudent(Student):
+#     def __init__(self):
+#         super().__init__()
+#
+# ds = DevopsStudent()
+# print(ds.student_data())
 
-class Student:
-    def student_data(self):
-        return "Saim"
-
-class DevopsStudent(Student):
-    def __init__(self):
-        super().__init__()
-
-ds = DevopsStudent()
-print(ds.student_data())
+# 14. Declare a variable called city, declare a method that takes city as an argument, value of city is london. Method checks if the value is london and returns true or false
+#
+#
+# def citycheck(cityname):
+#     if cityname == "London":
+#         return True
+#     else:
+#         return False
+#
+# print(citycheck("London"))
